@@ -7,3 +7,5 @@
 3. import `import.sql`(springmvcdemo/)
 4. mvn tomcat7:run
 5. browser [http://localhost:8080/springmvcdemo/](http://localhost:8080/springmvcdemo/)
+
+Thanks!
