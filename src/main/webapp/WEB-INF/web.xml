@@ -5,21 +5,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 	
-	<!-- 使用默认过滤器  处理静态文件 防止请求被springmvc拦截 -->
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.js</url-pattern>
-	</servlet-mapping>
-	
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.css</url-pattern>
-	</servlet-mapping>
-	
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.pic</url-pattern>
-	</servlet-mapping>
+
 	
 	<!-- 配置springmvc，将所有请求交给DispatcherServlet处理 -->
 	<servlet>
